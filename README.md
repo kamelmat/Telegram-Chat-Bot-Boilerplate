@@ -18,36 +18,61 @@ This boilerplate is designed to kickstart your Telegram bot development process.
 
 Your input is valuable and will help enhance this project. Feel free to open issues, submit pull requests, or reach out directly to contribute to its development.
 
-## Setup
+## 🛠️ Setup
 
-1. Clone this repository
-2. Create a virtual environment: `python -m venv venv`
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/kamelmat/Telegram-Chat-Bot-Boilerplate.git
+   cd Telegram-Chat-Bot-Boilerplate
+   ```
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
 3. Activate the virtual environment:
-   - On Windows: `venv\Scripts\activate`
-   - On macOS and Linux: `source venv/bin/activate`
-4. Install the required packages: `pip install -r requirements.txt`
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 5. Create a `.env` file in the root directory and add your Telegram Bot Token:
    ```
    TELEGRAM_BOT_TOKEN=your_bot_token_here
    ```
-6. Run the bot: `python -m bot.main`
+6. Run the bot:
+   ```bash
+   python -m bot.main
+   ```
 
-## Running Tests
+## 🧪 Running Tests
 
 To run the tests, use the following command:
 
-```
+```bash
 pytest
 ```
 
-## Docker (Optional)
+## 🐳 Docker (Optional)
 
 To build and run the bot using Docker:
 
-1. Build the Docker image: `docker build -t telegram-bot .`
-2. Run the container: `docker run --env-file .env telegram-bot`
+1. Build the Docker image:
+   ```bash
+   docker build -t telegram-bot .
+   ```
+2. Run the container:
+   ```bash
+   docker run --env-file .env telegram-bot
+   ```
 
-## Feedback and Collaboration
+## 📢 Feedback and Collaboration
 
 Your feedback is crucial for improving this boilerplate! If you've used this project:
 
@@ -60,11 +85,11 @@ Please open an issue on this repository to share your thoughts, report bugs, or 
 
 Let's collaborate to make this Telegram bot boilerplate even better!
 
-## License
+## 📜 License
 
 [MIT License](LICENSE)
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - This project was created with the assistance of CURSOR AI.
 - Thanks to the python-telegram-bot library for providing a robust framework for Telegram bot development.
